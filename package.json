@@ -1,9 +1,9 @@
 {
   "name": "rc-ipc-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "dhl",
   "license": "ISC",
-  "dependencies":{
+  "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "antd": "^3.13.4"
