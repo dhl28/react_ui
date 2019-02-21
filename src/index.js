@@ -1,4 +1,5 @@
+import './style.css'
 import SmallButton from './components/SmallButton.js';
-module.exports = {
+export {
     SmallButton
 }

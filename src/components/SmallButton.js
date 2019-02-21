@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'antd'
 const zh_url = 'https://www.zhihu.com/signup?next=%2F'
 export default class SmallButton extends React.Component {
     handleClick() {
@@ -7,7 +8,7 @@ export default class SmallButton extends React.Component {
     render() {
         return (
             <div>
-                <button onClick={this.handleClick}>知乎</button>
+                <Button type='primary' onClick={this.handleClick}>知乎</Button>
             </div>
         );
     }
