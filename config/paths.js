@@ -75,6 +75,7 @@ module.exports = {
   appIndexJs: resolveModule(resolveApp, 'examples/index'),
   appPackageJson: resolveApp('package.json'),
   appSrc: [resolveApp('src'),resolveApp('examples')],
+  appBuildSrc:resolveApp('src'),
   appExample: resolveApp('examples'),
   appTsConfig: resolveApp('tsconfig.json'),
   yarnLockFile: resolveApp('yarn.lock'),
