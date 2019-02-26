@@ -1,7 +1,6 @@
 
 import SmallButton from './components/SmallButton.js';
-const components = {
+
+module.exports = {
     SmallButton
 }
-
-module.exports = components
