@@ -1,6 +1,6 @@
 {
   "name": "rc-ipc-ui",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "dhl",
   "main": "/lib/index.js",
   "license": "ISC",
@@ -67,7 +67,7 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "scripts": {
-    "build1":"babel src --out-dir lib --presets=es2015,react --no-babelrc ",
+    "build1": "babel src --out-dir lib --presets=es2015,react --no-babelrc ",
     "start": "node scripts/start.js",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --mode production --config config/webpack.dist.config.js",
     "test": "node scripts/test.js"
