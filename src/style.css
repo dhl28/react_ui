@@ -1,4 +1,1 @@
-.app{
-  width: 300px;
-  font-size: 12px;
-}
+@import '~antd/dist/antd.css';

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import  {SmallButton} from '@src/index'
+import  SmallButton from '@src/components/SmallButton.js'
 
 class App extends Component {
   render() {
