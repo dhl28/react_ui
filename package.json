@@ -1,6 +1,6 @@
 {
   "name": "rc-ipc-ui",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "dhl",
   "main": "/lib/index.js",
   "license": "ISC",
