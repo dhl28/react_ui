@@ -4,4 +4,4 @@ const components = {
     SmallButton
 }
 
-module.exports.default = module.exports = components
+export default components
