@@ -1,5 +1,5 @@
 
-import SmallButton from './components/SmallButton.js';
+const SmallButton = require('./components/SmallButton.js')
 
 module.exports = {
     SmallButton
