@@ -1,6 +1,1 @@
-
-const SmallButton = require('./components/SmallButton.js')
-
-module.exports = {
-    SmallButton
-}
+export { default as SmallButton } from './components/SmallButton.js'
