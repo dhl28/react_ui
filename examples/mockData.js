@@ -119,3 +119,344 @@ export const rs_treeData = {
   },
   "requesttime": 1551171574380
 }
+
+
+export  const rs_tableData = {
+  "success": true,
+  "code": "200",
+  "message": "success",
+  "data": {
+      "title": [{
+          "key": "2018-10",
+          "children": [{
+              "key": "2018-10_forecastAdjust"
+          }
+          ]
+      }, {
+          "key": "2018-11",
+          "children": [{
+              "key": "2018-11_forecastAdjust"
+          }
+          ]
+      }, {
+          "key": "2018-12",
+          "children": [{
+              "key": "2018-12_forecastAdjust"
+          }
+          ]
+      }, {
+          "key": "2018-Q4",
+          "children": [{
+              "key": "2018-Q4_forecastAdjust"
+          }
+          ]
+      }
+      ],
+      "value": [[{
+          "rowKey": "-1_gmv_self",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 8571260052.00
+      }, {
+          "rowKey": "-1_gmv_self",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 1645796096.00
+      }, {
+          "rowKey": "-1_gmv_self",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_gmv_self",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 10217056148.00
+      }
+      ], [{
+          "rowKey": "-1_gmv_pop",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 794847892.00
+      }, {
+          "rowKey": "-1_gmv_pop",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_gmv_pop",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_gmv_pop",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 794847892.00
+      }
+      ], [{
+          "rowKey": "-1_gmv_total",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 9366107944.00
+      }, {
+          "rowKey": "-1_gmv_total",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 1645796096.00
+      }, {
+          "rowKey": "-1_gmv_total",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_gmv_total",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 11011904040.00
+      }
+      ], [{
+          "rowKey": "-1_grossProfit_self",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 102687882.00
+      }, {
+          "rowKey": "-1_grossProfit_self",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 331627935.00
+      }, {
+          "rowKey": "-1_grossProfit_self",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_grossProfit_self",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 434315817.00
+      }
+      ], [{
+          "rowKey": "-1_grossProfit_pop",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 39443118.00
+      }, {
+          "rowKey": "-1_grossProfit_pop",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_grossProfit_pop",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_grossProfit_pop",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 39443118.00
+      }
+      ], [{
+          "rowKey": "-1_grossProfit_total",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 142131000.00
+      }, {
+          "rowKey": "-1_grossProfit_total",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 331627935.00
+      }, {
+          "rowKey": "-1_grossProfit_total",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_grossProfit_total",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 473758935.00
+      }
+      ], [{
+          "rowKey": "-1_grossProfitRate_self",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 0.012
+      }, {
+          "rowKey": "-1_grossProfitRate_self",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 0.202
+      }, {
+          "rowKey": "-1_grossProfitRate_self",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_grossProfitRate_self",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 0.043
+      }
+      ], [{
+          "rowKey": "-1_grossProfitRate_pop",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 0.050
+      }, {
+          "rowKey": "-1_grossProfitRate_pop",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_grossProfitRate_pop",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_grossProfitRate_pop",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 0.050
+      }
+      ], [{
+          "rowKey": "-1_grossProfitRate_total",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 0.015
+      }, {
+          "rowKey": "-1_grossProfitRate_total",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 0.202
+      }, {
+          "rowKey": "-1_grossProfitRate_total",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_grossProfitRate_total",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 0.043
+      }
+      ], [{
+          "rowKey": "-1_netRevenues_self",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 1048283820.00
+      }, {
+          "rowKey": "-1_netRevenues_self",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 3358458165.11
+      }, {
+          "rowKey": "-1_netRevenues_self",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_netRevenues_self",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 4406741985.11
+      }
+      ], [{
+          "rowKey": "-1_netRevenues_pop",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 43405706.00
+      }, {
+          "rowKey": "-1_netRevenues_pop",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_netRevenues_pop",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_netRevenues_pop",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 43405706.00
+      }
+      ], [{
+          "rowKey": "-1_netRevenues_total",
+          "columnKey": "2018-10_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 1091689526.00
+      }, {
+          "rowKey": "-1_netRevenues_total",
+          "columnKey": "2018-11_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 3358458165.11
+      }, {
+          "rowKey": "-1_netRevenues_total",
+          "columnKey": "2018-12_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST"
+      }, {
+          "rowKey": "-1_netRevenues_total",
+          "columnKey": "2018-Q4_forecastAdjust",
+          "editable": false,
+          "type": "FORECAST",
+          "val": 4450147691.11
+      }
+      ]],
+      "map": {
+          "subject": {
+              "gmv": "GMV",
+              "netRevenues": "净收入",
+              "grossProfit": "综合毛利额",
+              "grossProfitRate": "综合毛利率"
+          },
+          "preference": {
+              "history": "实际",
+              "forecastAdjust": "预测填报"
+          },
+          "pattern": {
+              "pop": "POP",
+              "total": "合计",
+              "self": "自营"
+          },
+          "deptInfo": {
+              "-1": "预算部"
+          }
+      }
+  },
+  "requesttime": 1540965869819
+}
