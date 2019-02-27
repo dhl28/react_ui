@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button} from 'antd'
-import 'antd/lib/button/style';
 const zh_url = 'https://www.zhihu.com/signup?next=%2F'
 export default class SmallButton extends React.Component {
     handleClick() {

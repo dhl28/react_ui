@@ -1,28 +1,46 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { message, Tabs } from 'antd'
 import './App.css';
-import  SmallButton from '@src/components/SmallButton.js'
+import CommonTree from '@src/components/commonTree.js'
+import * as utils from './utils'
+const { TabPane } = Tabs
+
+function callback(key) {
+  console.log(key);
+}
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      treeData: null,
+      treeOpts: {
+        onSelect: this.onSelect
+      },
+      searchOpts: { placeholder: '输入名称或者id进行搜素' }
+    }
+  }
+
+  onSelect = (keys) => {
+    message.info('select key is :' + keys.toString())
+  }
+
+  componentDidMount() {
+    utils.loadTreeData().then((data) => {
+      this.setState({ treeData: data })
+    })
+  }
   render() {
+    const { treeOpts, searchOpts, treeData } = this.state
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-           
-          </p>
-          <SmallButton></SmallButton>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Tabs defaultActiveKey="1" onChange={callback}>
+          <TabPane tab="树形控件" key="1">
+            <CommonTree treeOpts={treeOpts} showSearch searchOpts={searchOpts} treeData={treeData}></CommonTree>
+          </TabPane>
+          <TabPane tab="表格控件" key="2">Content of Tab Pane 2</TabPane>
+        </Tabs>,
+
       </div>
     );
   }
